@@ -3,8 +3,7 @@ import pandas as pd
 import pip
 pip.main(["install", "openpyxl"])
 
-import_optional_dependency("openpyxl")
-
+#import_optional_dependency("openpyxl")
 st.title("REPORTE YAPE")
 uploaded_file = st.file_uploader("Sube un archivo Excel", type=["xlsx"])
 df = pd.read_excel(uploaded_file)
