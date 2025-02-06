@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd  
+import pip
+pip.main(["install", "openpyxl"])
 
 st.title("REPORTE YAPE")
 uploaded_file = st.file_uploader("Sube un archivo Excel", type=["xlsx"])
