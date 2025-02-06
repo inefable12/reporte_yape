@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd  
 import pip
 pip.main(["install", "openpyxl"])
-from openpyxl import Workbook #reader,load_workbook,
+from openpyxl import #reader,load_workbook, Workbook
 
 #import_optional_dependency("openpyxl")
 st.title("REPORTE YAPE")
